@@ -1,7 +1,5 @@
 /* BLUE:  #151341  21, 19, 65, 1*/
 /* Golden: #e3c161  rgba(227,193,97,255) */
-
-
 html {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -955,7 +953,6 @@ html {
   
   /* Product Card */
   .product-card {
-    background: #fff;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
@@ -965,10 +962,7 @@ html {
     flex-direction: column;
   }
   
-  .product-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-  }
+ 
   
   .product-image {
     overflow: hidden;
@@ -980,10 +974,6 @@ html {
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease;
-  }
-  
-  .product-card:hover .product-image img {
-    transform: scale(1.05);
   }
   
   .product-details {
@@ -1188,4 +1178,89 @@ html {
     color: #FFF;
   }
   
-  
+  /* Products Section Styles */
+.products-section {
+  background: #f8f9fa;
+}
+.category-title {
+  color: #151341;
+  font-size: 2rem;
+  font-weight: 600;
+  border-left: 5px solid #e3c161;
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+}
+.product-card {
+  border-radius: 1rem;
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  border: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.product-card:hover {
+  border-color: #e3c161;
+}
+.product-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 0.7rem;
+  background: #eee;
+}
+.product-brand {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #151341;
+  margin-bottom: 0.5rem;
+}
+.product-params {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+  padding-left: 1.2rem;
+}
+.product-params li {
+  list-style: disc;
+}
+.product-features,
+.product-applications {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+.product-features strong,
+.product-applications strong {
+  color: #e3c161;
+  font-weight: 600;
+}
+.product-features ul,
+.product-applications ul {
+  margin-bottom: 0;
+  padding-left: 1.2rem;
+}
+.product-features li,
+.product-applications li {
+  list-style: circle;
+}
+@media (max-width: 991.98px) {
+  .category-title {
+    font-size: 1.4rem;
+    padding-left: 0.7rem;
+  }
+  .product-card {
+    padding: 1.2rem 0.7rem 1rem 0.7rem;
+  }
+  .product-img {
+    height: 150px;
+  }
+}
+
+
+.testimonials-swiper .swiper-button-next,
+.testimonials-swiper .swiper-button-prev {
+  color: #e3c161;
+}
+
+
+
