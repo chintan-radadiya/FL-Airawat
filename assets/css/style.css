@@ -110,6 +110,9 @@ html {
   .mtb-120 {
     margin: 120px 0px;
   }
+  .mtb-60 {
+    margin: 60px 0px;
+  }
   .mb-120 {
     margin-bottom: 120px;
   }
@@ -145,6 +148,9 @@ html {
   }
   .ptb-100 {
     padding: 100px 0px;
+  }
+  .ptb-60 {
+    padding: 60px 0px;
   }
   .pb-120 {
     padding: 0px 0px 120px 0px;
@@ -416,6 +422,10 @@ html {
     justify-content: center;
     margin-right: 1rem;
   }
+
+  .contact-social-links a:hover {
+    color: #e3c161 !important;
+}
 
   /* Form Validation */
   .was-validated .form-control:invalid,
