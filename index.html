@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <title>Airawat</title>
+</head>
+
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm" aria-label="Main navigation">
+            <div class="container">
+                <!-- Logo/Brand -->
+                <a class="navbar-brand p-0 m-0" href="index.html" aria-label="Home">
+                    <img src="./assets/images/logo-blue.png" alt="Airawat Logo" class="navbar-logo">
+                </a>
+
+                <!-- Mobile Toggle Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" 
+                    aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase">
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href="#" aria-current="page">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+                            <a class="btn btn-primary rounded-1 px-4" href="#">Get Brochure</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section ptb-120">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Left Side Content -->
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h1>Welcome to Airawat</h1>
+                    <p class="mt-4 mb-5">Innovative solutions for a better tomorrow. We provide cutting-edge technology
+                        and exceptional service to help your business grow and thrive in the digital age.</p>
+                        <a href="#" class="btn btn-outline-primary d-inline-flex align-items-center">
+                            Learn More
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrow-right ms-2" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                        </a>
+                </div>
+
+                <!-- Right Side Slider -->
+                <div class="col-lg-6">
+                    <div class="swiper hero-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./assets/images/prod-1.png" alt="Slide 1"
+                                    class="img-fluid rounded">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/images/prod-2.png" alt="Slide 2"
+                                    class="img-fluid rounded">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/images/prod-3.png" alt="Slide 3"
+                                    class="img-fluid rounded">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section py-lg-6 pb-120">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Left Side - Image -->
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <div class="about-image-wrapper rounded overflow-hidden">
+                        <img src="./assets/images/habout.jpg" 
+                             alt="About Airawat" 
+                             class="img-fluid w-100 h-auto">
+                    </div>
+                </div>
+                
+                <!-- Right Side - Content -->
+                <div class="col-lg-6 ps-lg-5">
+                    <!-- <span class="section-tag text-uppercase text-primary fw-bold d-inline-block mb-3">About Us</span> -->
+                    <h2 class="section-title mb-4">Innovative Solutions for a Better Tomorrow</h2>
+                    <p class="section-text mb-4">
+                        At Airawat, we are committed to delivering cutting-edge technology solutions that drive business growth. 
+                        Our team of experts works tirelessly to provide innovative products and services that meet the evolving 
+                        needs of our clients worldwide.
+                    </p>
+                    <a href="#" class="btn btn-outline-primary d-inline-flex align-items-center">
+                        Learn More
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrow-right ms-2" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section py-lg-6 bg-light ptb-120">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="text-center mb-5">
+                <h2 class="section-title">Our Products</h2>
+                <p class="section-subtitle text-muted">Discover our wide range of innovative solutions</p>
+            </div>
+
+            <!-- Tabs Navigation -->
+            <div class="products-tabs mb-5">
+                <ul class="nav nav-tabs justify-content-center border-0" id="productsTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="category1-tab" data-bs-toggle="tab" 
+                            data-bs-target="#category1" type="button" role="tab" aria-controls="category1" 
+                            aria-selected="true">
+                            Category 1
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="category2-tab" data-bs-toggle="tab" 
+                            data-bs-target="#category2" type="button" role="tab" aria-controls="category2" 
+                            aria-selected="false">
+                            Category 2
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="category3-tab" data-bs-toggle="tab" 
+                            data-bs-target="#category3" type="button" role="tab" aria-controls="category3" 
+                            aria-selected="false">
+                            Category 3
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="category4-tab" data-bs-toggle="tab" 
+                            data-bs-target="#category4" type="button" role="tab" aria-controls="category4" 
+                            aria-selected="false">
+                            Category 4
+                        </button>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Tab Content -->
+            <div class="tab-content" id="productsTabContent">
+                <!-- Category 1 -->
+                <div class="tab-pane fade show active" id="category1" role="tabpanel" aria-labelledby="category1-tab">
+                    <div class="swiper products-swiper">
+                        <div class="swiper-wrapper">
+                            <!-- Product Items -->
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="https://via.placeholder.com/300x200/151341/ffffff?text=Product+1" 
+                                             alt="Product 1" class="img-fluid">
+                                    </div>
+                                    <div class="product-details p-3">
+                                        <h3 class="product-title h5 mb-2">Product 1</h3>
+                                        <p class="product-desc small text-muted mb-3">Description for product 1</p>
+                                        <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Repeat for other products -->
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="https://via.placeholder.com/300x200/e3c161/ffffff?text=Product+2" 
+                                             alt="Product 2" class="img-fluid">
+                                    </div>
+                                    <div class="product-details p-3">
+                                        <h3 class="product-title h5 mb-2">Product 2</h3>
+                                        <p class="product-desc small text-muted mb-3">Description for product 2</p>
+                                        <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="https://via.placeholder.com/300x200/151341/e3c161?text=Product+3" 
+                                             alt="Product 3" class="img-fluid">
+                                    </div>
+                                    <div class="product-details p-3">
+                                        <h3 class="product-title h5 mb-2">Product 3</h3>
+                                        <p class="product-desc small text-muted mb-3">Description for product 3</p>
+                                        <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="https://via.placeholder.com/300x200/e3c161/151341?text=Product+4" 
+                                             alt="Product 4" class="img-fluid">
+                                    </div>
+                                    <div class="product-details p-3">
+                                        <h3 class="product-title h5 mb-2">Product 4</h3>
+                                        <p class="product-desc small text-muted mb-3">Description for product 4</p>
+                                        <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Navigation -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                
+                <!-- Category 2 -->
+                <div class="tab-pane fade" id="category2" role="tabpanel" aria-labelledby="category2-tab">
+                    <div class="swiper products-swiper">
+                        <div class="swiper-wrapper">
+                            <!-- Product Items for Category 2 -->
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="https://via.placeholder.com/300x200/4a6fa5/ffffff?text=Product+5" 
+                                             alt="Product 5" class="img-fluid">
+                                    </div>
+                                    <div class="product-details p-3">
+                                        <h3 class="product-title h5 mb-2">Product 5</h3>
+                                        <p class="product-desc small text-muted mb-3">Advanced solution for modern needs</p>
+                                        <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="https://via.placeholder.com/300x200/6c8fc7/ffffff?text=Product+6" 
+                                             alt="Product 6" class="img-fluid">
+                                    </div>
+                                    <div class="product-details p-3">
+                                        <h3 class="product-title h5 mb-2">Product 6</h3>
+                                        <p class="product-desc small text-muted mb-3">Efficient and reliable performance</p>
+                                        <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="https://via.placeholder.com/300x200/8ea8d9/ffffff?text=Product+7" 
+                                             alt="Product 7" class="img-fluid">
+                                    </div>
+                                    <div class="product-details p-3">
+                                        <h3 class="product-title h5 mb-2">Product 7</h3>
+                                        <p class="product-desc small text-muted mb-3">Premium quality for professionals</p>
+                                        <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="https://via.placeholder.com/300x200/4a6fa5/e3c161?text=Product+8" 
+                                             alt="Product 8" class="img-fluid">
+                                    </div>
+                                    <div class="product-details p-3">
+                                        <h3 class="product-title h5 mb-2">Product 8</h3>
+                                        <p class="product-desc small text-muted mb-3">Innovative design for better results</p>
+                                        <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                
+                <!-- Category 3 -->
+                <div class="tab-pane fade" id="category3" role="tabpanel" aria-labelledby="category3-tab">
+                    <div class="swiper products-swiper">
+                        <div class="swiper-wrapper">
+                            <!-- Product Items for Category 3 -->
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="https://via.placeholder.com/300x200/4a8f8b/ffffff?text=Product+9" 
+                                             alt="Product 9" class="img-fluid">
+                                    </div>
+                                    <div class="product-details p-3">
+                                        <h3 class="product-title h5 mb-2">Product 9</h3>
+                                        <p class="product-desc small text-muted mb-3">Eco-friendly and sustainable</p>
+                                        <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="https://via.placeholder.com/300x200/6bb3af/ffffff?text=Product+10" 
+                                             alt="Product 10" class="img-fluid">
+                                    </div>
+                                    <div class="product-details p-3">
+                                        <h3 class="product-title h5 mb-2">Product 10</h3>
+                                        <p class="product-desc small text-muted mb-3">High performance and durability</p>
+                                        <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="https://via.placeholder.com/300x200/8dd6d2/ffffff?text=Product+11" 
+                                             alt="Product 11" class="img-fluid">
+                                    </div>
+                                    <div class="product-details p-3">
+                                        <h3 class="product-title h5 mb-2">Product 11</h3>
+                                        <p class="product-desc small text-muted mb-3">Cutting-edge technology</p>
+                                        <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="https://via.placeholder.com/300x200/4a8f8b/e3c161?text=Product+12" 
+                                             alt="Product 12" class="img-fluid">
+                                    </div>
+                                    <div class="product-details p-3">
+                                        <h3 class="product-title h5 mb-2">Product 12</h3>
+                                        <p class="product-desc small text-muted mb-3">Smart and efficient solution</p>
+                                        <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                
+                <!-- Category 4 -->
+                <div class="tab-pane fade" id="category4" role="tabpanel" aria-labelledby="category4-tab">
+                    <div class="swiper products-swiper">
+                        <div class="swiper-wrapper">
+                            <!-- Product Items for Category 4 -->
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="https://via.placeholder.com/300x200/8b5e8a/ffffff?text=Product+13" 
+                                             alt="Product 13" class="img-fluid">
+                                    </div>
+                                    <div class="product-details p-3">
+                                        <h3 class="product-title h5 mb-2">Product 13</h3>
+                                        <p class="product-desc small text-muted mb-3">Premium quality materials</p>
+                                        <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="https://via.placeholder.com/300x200/af8cac/ffffff?text=Product+14" 
+                                             alt="Product 14" class="img-fluid">
+                                    </div>
+                                    <div class="product-details p-3">
+                                        <h3 class="product-title h5 mb-2">Product 14</h3>
+                                        <p class="product-desc small text-muted mb-3">Innovative design</p>
+                                        <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="https://via.placeholder.com/300x200/d4b9d2/ffffff?text=Product+15" 
+                                             alt="Product 15" class="img-fluid">
+                                    </div>
+                                    <div class="product-details p-3">
+                                        <h3 class="product-title h5 mb-2">Product 15</h3>
+                                        <p class="product-desc small text-muted mb-3">High-performance solution</p>
+                                        <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="https://via.placeholder.com/300x200/8b5e8a/e3c161?text=Product+16" 
+                                             alt="Product 16" class="img-fluid">
+                                    </div>
+                                    <div class="product-details p-3">
+                                        <h3 class="product-title h5 mb-2">Product 16</h3>
+                                        <p class="product-desc small text-muted mb-3">Professional grade equipment</p>
+                                        <a href="#" class="btn btn-sm btn-outline-primary">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-lg-7 bg-light ptb-100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="section-header text-center mb-5">
+                        <h2 class="section-title mb-3">Get In Touch</h2>
+                        <p class="section-subtitle text-muted">Have questions or want to discuss a project? We'd love to hear from you.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row g-5">
+                <!-- Contact Form -->
+                <div class="col-lg-7 order-lg-1 order-2">
+                    <div class="contact-form-wrapper bg-white p-4 p-lg-5 rounded-3 shadow-sm">
+                        <form id="contactForm" novalidate>
+                            <div class="row g-4">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="name" class="form-label">Your Name <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control form-control-lg" id="name" name="name" required>
+                                        <div class="invalid-feedback">Please enter your name.</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="email" class="form-label">Email Address <span class="text-danger">*</span></label>
+                                        <input type="email" class="form-control form-control-lg" id="email" name="email" required>
+                                        <div class="invalid-feedback">Please enter a valid email address.</div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="subject" class="form-label">Subject</label>
+                                        <input type="text" class="form-control form-control-lg" id="subject" name="subject">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="message" class="form-label">Your Message <span class="text-danger">*</span></label>
+                                        <textarea class="form-control form-control-lg" id="message" name="message" rows="5" required></textarea>
+                                        <div class="invalid-feedback">Please enter your message.</div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-outline-primary btn-lg px-4 ">
+                                        <span class="d-flex align-items-center justify-content-center">
+                                            <span>Send Message</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right ms-2" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="col-lg-5 order-lg-2 order-1">
+                    <div class="contact-info h-100 d-flex flex-column justify-content-center">
+                        <h3 class="mb-4">Let's Talk About Your Project</h3>
+                        <p class="lead mb-4">We're here to help and answer any questions you might have. We look forward to hearing from you.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="icon-wrapper">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-text">
+                                    <h6>Email Us</h6>
+                                    <a href="mailto:info@airawat.com">info@airawat.com</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="icon-wrapper">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                                        <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h6 class="mb-1">Call Us</h6>
+                                    <a href="tel:+1234567890" class="text-decoration-none">+1 (234) 567-890</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section py-lg-8 position-relative overflow-hidden">
+        <div class="container position-relative">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8">
+                    <h2 class="cta-title mb-4">Ready to Elevate Your Experience?</h2>
+                    <p class="cta-text mb-5 mx-auto">Discover how our innovative solutions can transform your business. Join hundreds of satisfied customers today.</p>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="btn btn-outline-light btn-lg mb-3">
+                            <span class="d-flex align-items-center">
+                                <span>Contact Sales</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chat-dots ms-2" viewBox="0 0 16 16">
+                                    <path d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                                    <path d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9.06 9.06 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a.5.5 0 0 1 .097.592l-1.48 3.851a.5.5 0 0 0 .662.648l3.86-1.53a.5.5 0 0 1 .427-.03c1.992.632 4.31.705 6.087.16a8.956 8.956 0 0 1-.184-.27c-.335.1-.636.162-.93.208a9.05 9.05 0 0 1-1.457-.05 11.6 11.6 0 0 1-.535-.043 8.37 8.37 0 0 1-.66.08 9.05 9.05 0 0 1-1.348-.127 8.4 8.4 0 0 1-.535-.05z"/>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Background Elements -->
+        <div class="cta-shape-1"></div>
+        <div class="cta-shape-2"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-primary text-white pt-100 ">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Company Info -->
+                <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
+                    <div class="footer-brand mb-4">
+                        <img src="assets/images/logo-white.png" alt="Airawat Logo" class="footer-logo" height="50">
+                    </div>
+                    <address class="mb-4">
+                        <p class="mb-2">123 Business Street,<br>Mumbai, Maharashtra 400001</p>
+                        <p class="mb-1">
+                            <a href="mailto:info@airawat.com" class="text-white text-decoration-none hover-secondary">
+                                <i class="bi bi-envelope me-2"></i>info@airawat.com
+                            </a>
+                        </p>
+                        <p class="mb-0">
+                            <a href="tel:+919876543210" class="text-white text-decoration-none hover-secondary">
+                                <i class="bi bi-telephone me-2"></i>+91 98765 43210
+                            </a>
+                        </p>
+                    </address>
+                    <div class="social-links mt-4">
+                        <a href="#" class="text-white me-3 hover-secondary" aria-label="Facebook">
+                            <i class="bi bi-facebook fs-5"></i>
+                        </a>
+                        <a href="#" class="text-white me-3 hover-secondary" aria-label="Instagram">
+                            <i class="bi bi-instagram fs-5"></i>
+                        </a>
+                        <a href="#" class="text-white me-3 hover-secondary" aria-label="LinkedIn">
+                            <i class="bi bi-linkedin fs-5"></i>
+                        </a>
+                        <a href="#" class="text-white hover-secondary" aria-label="Twitter">
+                            <i class="bi bi-twitter-x fs-5"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h3 class="h5 mb-4">Quick Links</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <a href="#home" class="text-white text-decoration-none hover-secondary d-flex align-items-center">
+                                <i class="bi bi-chevron-right me-2 small"></i>Home
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#about" class="text-white text-decoration-none hover-secondary d-flex align-items-center">
+                                <i class="bi bi-chevron-right me-2 small"></i>About Us
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#products" class="text-white text-decoration-none hover-secondary d-flex align-items-center">
+                                <i class="bi bi-chevron-right me-2 small"></i>Products
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#contact" class="text-white text-decoration-none hover-secondary d-flex align-items-center">
+                                <i class="bi bi-chevron-right me-2 small"></i>Contact
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-white text-decoration-none hover-secondary d-flex align-items-center">
+                                <i class="bi bi-download me-2 small"></i>Download Brochure
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Product Categories -->
+                <div class="col-lg-4">
+                    <h3 class="h5 mb-4">Our Products</h3>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li class="mb-2">
+                                    <a href="#" class="text-white text-decoration-none hover-secondary d-flex align-items-center">
+                                        <i class="bi bi-chevron-right me-2 small"></i>Category 1
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#" class="text-white text-decoration-none hover-secondary d-flex align-items-center">
+                                        <i class="bi bi-chevron-right me-2 small"></i>Category 2
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li class="mb-2">
+                                    <a href="#" class="text-white text-decoration-none hover-secondary d-flex align-items-center">
+                                        <i class="bi bi-chevron-right me-2 small"></i>Category 3
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#" class="text-white text-decoration-none hover-secondary d-flex align-items-center">
+                                        <i class="bi bi-chevron-right me-2 small"></i>Category 4
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <!-- <div class="row mt-5 pt-4 border-top border-secondary border-opacity-25">
+                <div class="col-12">
+                    <div class="d-md-flex justify-content-between align-items-center text-center text-md-start">
+                        <p class="mb-2 mb-md-0">&copy; <span id="current-year">2025</span> Airawat. All rights reserved.</p>
+                        <div class="d-flex justify-content-center justify-content-md-end">
+                            <a href="#" class="text-white-50 text-decoration-none me-3 small">Privacy Policy</a>
+                            <a href="#" class="text-white-50 text-decoration-none small">Terms of Service</a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>

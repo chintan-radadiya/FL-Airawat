@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <title>Airawat</title>
+</head>
+
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm" aria-label="Main navigation">
+            <div class="container">
+                <!-- Logo/Brand -->
+                <a class="navbar-brand p-0 m-0" href="index.html" aria-label="Home">
+                    <img src="./assets/images/logo-blue.png" alt="Airawat Logo" class="navbar-logo">
+                </a>
+
+                <!-- Mobile Toggle Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" 
+                    aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase">
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href="#" aria-current="page">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+                            <a class="btn btn-primary rounded-1 px-4" href="#">Get Brochure</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-about position-relative text-white">
+        <!-- Background image -->
+        <img src="assets/images/hero-about-placeholder.jpg" class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" alt="Airawat team working"/>
+        <!-- Overlay -->
+        <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-50"></div>
+        <!-- Foreground content -->
+        <div class="container position-relative d-flex flex-column justify-content-center align-items-center min-vh-50 py-5">
+            <h1 class="display-4 fw-bold mb-3">About Us</h1>
+            <p class="lead mb-0 text-center">We are committed to delivering excellence and innovation.<br class="d-none d-md-block">Discover our story and values.</p>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Product Introduction Section -->
+    <section class="product-intro py-5">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <!-- Left Image -->
+                <div class="col-lg-5 text-center text-lg-start">
+                    <img src="assets/images/product-intro-placeholder.jpg" alt="Airawat products" class="img-fluid rounded intro-image">
+                </div>
+                <!-- Right Content -->
+                <div class="col-lg-7">
+                    <h2 class="fw-bold mb-3">Discover Our Finest Products</h2>
+                    <p class="mb-4">From sourcing to delivery, we ensure top-quality materials that meet international standards.<br class="d-none d-md-block">Explore our diverse range and find the perfect fit for your business needs.<br class="d-none d-md-block">Innovation, reliability, and customer satisfaction drive everything we do.<br class="d-none d-md-block">Join us on a journey of excellence and growth.</p>
+                    <ul class="list-unstyled row row-cols-2 row-cols-md-3 gy-2 mb-4">
+                        <li class="col">Granite</li>
+                        <li class="col">Marble</li>
+                        <li class="col">Quartzite</li>
+                        <li class="col">Sandstone</li>
+                        <li class="col">Limestone</li>
+                        <li class="col">Onyx</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline-primary d-inline-flex align-items-center">Inquire Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision – Mission – Core Values Section -->
+    <section class="vmc-section py-5 bg-light">
+        <div class="container d-flex flex-column gap-5">
+            <!-- Row 1: Vision -->
+            <div class="row align-items-center gy-4">
+                <div class="col-lg-6 order-1 order-lg-1 text-center text-lg-start">
+                    <img src="assets/images/vision-placeholder.jpg" alt="Our vision" class="img-fluid rounded">
+                </div>
+                <div class="col-lg-6 order-2 order-lg-2">
+                    <h3 class="fw-bold mb-3">Our Vision</h3>
+                    <p class="mb-0">To be the leading global provider of premium stone solutions,<br class="d-none d-md-block">setting benchmarks for quality, sustainability, and innovation.</p>
+                </div>
+            </div>
+            <!-- Row 2: Mission -->
+            <div class="row align-items-center flex-lg-row-reverse gy-4">
+                <div class="col-lg-6 order-1 order-lg-1">
+                    <h3 class="fw-bold mb-3">Our Mission</h3>
+                    <p class="mb-0">To deliver exceptional products and services that exceed customer expectations,<br class="d-none d-md-block">while fostering growth, integrity, and sustainable practices throughout our supply chain.</p>
+                </div>
+                <div class="col-lg-6 order-2 order-lg-2 text-center text-lg-end">
+                    <img src="assets/images/mission-placeholder.jpg" alt="Our mission" class="img-fluid rounded">
+                </div>
+            </div>
+            <!-- Row 3: Core Values -->
+            <div class="row align-items-center gy-4">
+                <div class="col-lg-6 order-1 order-lg-1 text-center text-lg-start">
+                    <img src="assets/images/values-placeholder.jpg" alt="Our core values" class="img-fluid rounded">
+                </div>
+                <div class="col-lg-6 order-2 order-lg-2">
+                    <h3 class="fw-bold mb-3">Our Core Values</h3>
+                    <p class="mb-0">Integrity, customer-centricity, innovation, and environmental responsibility<br class="d-none d-md-block">guide every decision we make and every action we take.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial-section py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">What Our Clients Say</h2>
+            <div class="position-relative">
+                <!-- Swiper -->
+                <div class="swiper testimonials-swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide">
+                            <div class="testimonial-card p-4 h-100 shadow-sm bg-white rounded text-center">
+                                <img src="assets/images/client-placeholder.jpg" alt="Client photo" class="testimonial-photo mb-3">
+                                <h5 class="mb-1">John Doe</h5>
+                                <p class="small text-muted mb-3">CEO, Example Corp.</p>
+                                <blockquote class="mb-0">“Airawat delivered beyond our expectations. The quality and service are unmatched.”</blockquote>
+                            </div>
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="swiper-slide">
+                            <div class="testimonial-card p-4 h-100 shadow-sm bg-white rounded text-center">
+                                <img src="assets/images/client-placeholder.jpg" alt="Client photo" class="testimonial-photo mb-3">
+                                <h5 class="mb-1">Jane Smith</h5>
+                                <p class="small text-muted mb-3">Procurement Head</p>
+                                <blockquote class="mb-0">“Their commitment to quality and timely delivery has been crucial to our projects.”</blockquote>
+                            </div>
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="swiper-slide">
+                            <div class="testimonial-card p-4 h-100 shadow-sm bg-white rounded text-center">
+                                <img src="assets/images/client-placeholder.jpg" alt="Client photo" class="testimonial-photo mb-3">
+                                <h5 class="mb-1">Ahmed Khan</h5>
+                                <p class="small text-muted mb-3">Operations Manager</p>
+                                <blockquote class="mb-0">“Reliable, professional, and innovative — highly recommended partner.”</blockquote>
+                            </div>
+                        </div>
+                        <!-- Slide 4 -->
+                        <div class="swiper-slide">
+                            <div class="testimonial-card p-4 h-100 shadow-sm bg-white rounded text-center">
+                                <img src="assets/images/client-placeholder.jpg" alt="Client photo" class="testimonial-photo mb-3">
+                                <h5 class="mb-1">Ahmed Khan</h5>
+                                <p class="small text-muted mb-3">Operations Manager</p>
+                                <blockquote class="mb-0">“Reliable, professional, and innovative — highly recommended partner.”</blockquote>
+                            </div>
+                        </div>
+                        <!-- Slide 5 -->
+                        <div class="swiper-slide">
+                            <div class="testimonial-card p-4 h-100 shadow-sm bg-white rounded text-center">
+                                <img src="assets/images/client-placeholder.jpg" alt="Client photo" class="testimonial-photo mb-3">
+                                <h5 class="mb-1">Ahmed Khan</h5>
+                                <p class="small text-muted mb-3">Operations Manager</p>
+                                <blockquote class="mb-0">“Reliable, professional, and innovative — highly recommended partner.”</blockquote>
+                            </div>
+                        </div>
+                        <!-- More slides can be added -->
+                    </div>
+                    <!-- Pagination -->
+                    <div class="swiper-pagination mt-4"></div>
+                    <!-- Navigation -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+     <section class="cta-section py-6 py-lg-8 position-relative overflow-hidden">
+        <div class="container position-relative">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8">
+                    <h2 class="cta-title mb-4">Ready to Elevate Your Experience?</h2>
+                    <p class="cta-text mb-5 mx-auto">Discover how our innovative solutions can transform your business. Join hundreds of satisfied customers today.</p>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="btn btn-outline-light btn-lg mb-3">
+                            <span class="d-flex align-items-center">
+                                <span>Contact Sales</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chat-dots ms-2" viewBox="0 0 16 16">
+                                    <path d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                                    <path d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9.06 9.06 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a.5.5 0 0 1 .097.592l-1.48 3.851a.5.5 0 0 0 .662.648l3.86-1.53a.5.5 0 0 1 .427-.03c1.992.632 4.31.705 6.087.16a8.956 8.956 0 0 1-.184-.27c-.335.1-.636.162-.93.208a9.05 9.05 0 0 1-1.457-.05 11.6 11.6 0 0 1-.535-.043 8.37 8.37 0 0 1-.66.08 9.05 9.05 0 0 1-1.348-.127 8.4 8.4 0 0 1-.535-.05z"/>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Background Elements -->
+        <div class="cta-shape-1"></div>
+        <div class="cta-shape-2"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-primary text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Company Info -->
+                <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
+                    <div class="footer-brand mb-4">
+                        <img src="assets/images/logo-white.png" alt="Airawat Logo" class="footer-logo" height="50">
+                    </div>
+                    <address class="mb-4">
+                        <p class="mb-2">123 Business Street,<br>Mumbai, Maharashtra 400001</p>
+                        <p class="mb-1">
+                            <a href="mailto:info@airawat.com" class="text-white text-decoration-none hover-secondary">
+                                <i class="bi bi-envelope me-2"></i>info@airawat.com
+                            </a>
+                        </p>
+                        <p class="mb-0">
+                            <a href="tel:+919876543210" class="text-white text-decoration-none hover-secondary">
+                                <i class="bi bi-telephone me-2"></i>+91 98765 43210
+                            </a>
+                        </p>
+                    </address>
+                    <div class="social-links mt-4">
+                        <a href="#" class="text-white me-3 hover-secondary" aria-label="Facebook">
+                            <i class="bi bi-facebook fs-5"></i>
+                        </a>
+                        <a href="#" class="text-white me-3 hover-secondary" aria-label="Instagram">
+                            <i class="bi bi-instagram fs-5"></i>
+                        </a>
+                        <a href="#" class="text-white me-3 hover-secondary" aria-label="LinkedIn">
+                            <i class="bi bi-linkedin fs-5"></i>
+                        </a>
+                        <a href="#" class="text-white hover-secondary" aria-label="Twitter">
+                            <i class="bi bi-twitter-x fs-5"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h3 class="h5 mb-4">Quick Links</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <a href="#home" class="text-white text-decoration-none hover-secondary d-flex align-items-center">
+                                <i class="bi bi-chevron-right me-2 small"></i>Home
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#about" class="text-white text-decoration-none hover-secondary d-flex align-items-center">
+                                <i class="bi bi-chevron-right me-2 small"></i>About Us
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#products" class="text-white text-decoration-none hover-secondary d-flex align-items-center">
+                                <i class="bi bi-chevron-right me-2 small"></i>Products
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#contact" class="text-white text-decoration-none hover-secondary d-flex align-items-center">
+                                <i class="bi bi-chevron-right me-2 small"></i>Contact
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-white text-decoration-none hover-secondary d-flex align-items-center">
+                                <i class="bi bi-download me-2 small"></i>Download Brochure
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Product Categories -->
+                <div class="col-lg-4">
+                    <h3 class="h5 mb-4">Our Products</h3>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li class="mb-2">
+                                    <a href="#" class="text-white text-decoration-none hover-secondary d-flex align-items-center">
+                                        <i class="bi bi-chevron-right me-2 small"></i>Category 1
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#" class="text-white text-decoration-none hover-secondary d-flex align-items-center">
+                                        <i class="bi bi-chevron-right me-2 small"></i>Category 2
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li class="mb-2">
+                                    <a href="#" class="text-white text-decoration-none hover-secondary d-flex align-items-center">
+                                        <i class="bi bi-chevron-right me-2 small"></i>Category 3
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#" class="text-white text-decoration-none hover-secondary d-flex align-items-center">
+                                        <i class="bi bi-chevron-right me-2 small"></i>Category 4
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <!-- <div class="row mt-5 pt-4 border-top border-secondary border-opacity-25">
+                <div class="col-12">
+                    <div class="d-md-flex justify-content-between align-items-center text-center text-md-start">
+                        <p class="mb-2 mb-md-0">&copy; <span id="current-year">2025</span> Airawat. All rights reserved.</p>
+                        <div class="d-flex justify-content-center justify-content-md-end">
+                            <a href="#" class="text-white-50 text-decoration-none me-3 small">Privacy Policy</a>
+                            <a href="#" class="text-white-50 text-decoration-none small">Terms of Service</a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
