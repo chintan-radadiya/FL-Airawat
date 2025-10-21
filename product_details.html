@@ -1,136 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Product Details | Airawat</title>
 
-    <!-- fonts link -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
-        rel="stylesheet">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 
-    <!-- css link -->
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- Swiper CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
-
-    <title>Airawat</title>
+  <!-- Site CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
-
-<body>
-    <header class="sticky-top">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm" aria-label="Main navigation">
-            <div class="container">
-                <!-- Logo/Brand -->
-                <a class="navbar-brand p-0 m-0" href="index.html" aria-label="Home">
-                    <img src="./assets/images/logo-blue.png" alt="Airawat Logo" class="navbar-logo">
-                </a>
-
-                <!-- Mobile Toggle Button -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
-                    aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <!-- Navigation Links -->
-                <div class="collapse navbar-collapse" id="mainNavbar">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase">
-                        <li class="nav-item">
-                            <a class="nav-link px-3" href="#" aria-current="page">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-3" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-3" href="#">Products</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-3" href="#">Contact Us</a>
-                        </li>
-                        
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero-about position-relative text-white">
-
-        <!-- Background image -->
-        <img src="assets/images/hero-about-placeholder.jpg" class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" alt="Airawat team working"/>
-        <!-- Overlay -->
-        <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-50"></div>
-        <!-- Foreground content -->
-        <div class="container position-relative d-flex flex-column justify-content-center align-items-center min-vh-50 py-5">
-            <h1 class="display-4 fw-bold mb-3">Our Products</h1>
-            <p class="lead mb-0 text-center">We are committed to delivering excellence and innovation.<br class="d-none d-md-block">Discover our story and values.</p>
-        </div>
-    </section>
-
-    <!-- Products Section: Sidebar + Detail -->
-    <section class="products-section py-lg-6 bg-light ptb-120">
+<body class="product-details-page">
+  <!-- Header -->
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm" aria-label="Main navigation">
       <div class="container">
-        <div class="text-center mb-5">
-          <h2 class="section-title">Our Products</h2>
-          <p class="section-subtitle text-muted">Discover our wide range of innovative solutions</p>
+        <a class="navbar-brand p-0 m-0" href="index.html" aria-label="Home">
+          <img src="./assets/images/logo-blue.png" alt="Airawat Logo" class="navbar-logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+          aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavbar">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase">
+            <li class="nav-item"><a class="nav-link px-3" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link px-3" href="about.html">About Us</a></li>
+            <li class="nav-item"><a class="nav-link px-3" href="products.html">Products</a></li>
+            <li class="nav-item"><a class="nav-link px-3" href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Product Hero -->
+  <section class="hero-about position-relative text-white">
+    <img src="assets/images/hero-about-placeholder.jpg" class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" alt="Product hero"/>
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-50"></div>
+    <div class="container position-relative d-flex flex-column justify-content-center align-items-center min-vh-50 py-5">
+      <h1 id="pd-title" class="display-5 fw-bold mb-2">Product Details</h1>
+      <p class="lead mb-0 text-center">Explore product images, specifications and key information</p>
+    </div>
+  </section>
+
+  <!-- Product Details -->
+  <section class="ptb-120 bg-light">
+    <div class="container">
+      <div class="row g-4 align-items-start">
+        <!-- Gallery -->
+        <div class="col-lg-6">
+          <div class="card border-0 shadow-sm">
+            <div class="card-body">
+              <div class="swiper pd-gallery-swiper">
+                <div class="swiper-wrapper" id="pd-gallery">
+                  <!-- JS inserts slides -->
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="row g-4 products-layout">
-          <!-- Sidebar -->
-          <aside class="col-lg-4" aria-label="Product categories">
-            <div class="products-sidebar" id="products-sidebar">
-              <!-- JS will render categories and products here -->
-            </div>
-          </aside>
+        <!-- Info -->
+        <div class="col-lg-6">
+          <div class="card border-0 shadow-sm">
+            <div class="card-body">
+              <h2 id="pd-name" class="h3 mb-2">Product Name</h2>
+              <p id="pd-desc" class="text-muted mb-3">Short description of the product.</p>
 
-          <!-- Product Detail -->
-          <div class="col-lg-8">
-            <div class="product-detail card border-0 shadow-sm" id="product-detail" aria-live="polite">
-              <!-- JS will render the selected product here -->
+              <div id="pd-details" class="mb-3">
+                <!-- JS inserts bullet points / features -->
+              </div>
+
+              <div class="d-grid d-sm-flex gap-3">
+                <a href="contact.html#contact" class="btn btn-primary px-4">Inquire Now</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
 
-    <!-- CTA Section -->
-    <section class="cta-section py-lg-8 position-relative overflow-hidden">
-        <div class="container position-relative">
-            <div class="row justify-content-center text-center">
-                <div class="col-lg-8">
-                    <h2 class="cta-title mb-4">Ready to Elevate Your Experience?</h2>
-                    <p class="cta-text mb-5 mx-auto">Discover how our innovative solutions can transform your business.
-                        Join hundreds of satisfied customers today.</p>
-                    <div class="cta-buttons">
-                        <a href="#contact" class="btn btn-outline-light btn-lg mb-3">
-                            <span class="d-flex align-items-center">
-                                <span>Contact Sales</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
-                                    class="bi bi-chat-dots ms-2" viewBox="0 0 16 16">
-                                    <path
-                                        d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
-                                    <path
-                                        d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9.06 9.06 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a.5.5 0 0 1 .097.592l-1.48 3.851a.5.5 0 0 0 .662.648l3.86-1.53a.5.5 0 0 1 .427-.03c1.992.632 4.31.705 6.087.16a8.956 8.956 0 0 1-.184-.27c-.335.1-.636.162-.93.208a9.05 9.05 0 0 1-1.457-.05 11.6 11.6 0 0 1-.535-.043 8.37 8.37 0 0 1-.66.08 9.05 9.05 0 0 1-1.348-.127 8.4 8.4 0 0 1-.535-.05z" />
-                                </svg>
-                            </span>
-                        </a>
-                    </div>
-                </div>
+      <!-- Specifications -->
+      <div class="row mt-4">
+        <div class="col-12">
+          <div class="card border-0 shadow-sm">
+            <div class="card-body">
+              <h3 class="h5 mb-3">Specifications</h3>
+              <div class="table-responsive">
+                <table class="table table-striped align-middle specs-table" id="pd-specs">
+                  <!-- JS inserts specs rows -->
+                </table>
+              </div>
+              <div id="pd-empty-specs" class="text-muted small d-none">No specifications available for this product.</div>
             </div>
+          </div>
         </div>
-        <!-- Background Elements -->
-        <div class="cta-shape-1"></div>
-        <div class="cta-shape-2"></div>
-    </section>
+      </div>
+
+      <!-- Fallback if product not found -->
+      <div class="row mt-4 d-none" id="pd-notfound">
+        <div class="col-12">
+          <div class="alert alert-warning mb-0">
+            We couldn’t find this product. Please return to the <a href="products.html" class="alert-link">products</a> page.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
     <!-- Footer -->
     <footer class="footer bg-primary text-white py-5">
